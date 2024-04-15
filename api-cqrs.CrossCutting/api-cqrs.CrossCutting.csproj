@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\api-cqrs.Application\api-cqrs.Application.csproj" />
+    <ProjectReference Include="..\api-cqrs.Domain\api-cqrs.Domain.csproj" />
+    <ProjectReference Include="..\api-cqrs.Infrastructure\api-cqrs.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\api-cqrs.Domain\api-cqrs.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
